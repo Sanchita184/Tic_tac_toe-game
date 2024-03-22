@@ -1,0 +1,126 @@
+
+/* colour palete 
+#A40E4C   O
+#8d096c   text
+#D3D5D4   background
+#bbc8e1   box-colour
+#2e0b6e   X
+#2C2C54   buttons
+#C874D9
+#E1BBC9
+#zbbc8e1
+
+#ED254E red
+#3B429F violet blue
+#FEE440 maize 
+#EFF1F3 anti flash white
+#B2ABBF rose quarts
+#0D0628 dark purple
+#772D8B eminence X
+#00BBF9 dark sky blue O
+*/
+
+/****************** gloabal styles ***********************/
+
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    background: #FEE440;
+    text-align: center;
+}
+
+/*********************** h1 styles ***********************/
+body h1 {
+    color: #0D0628;
+    font-size: 7vmin;
+}
+
+/*********************** div styles ***********************/
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.game {
+    height: 60vmin; 
+    width: 60vmin;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.msg-container1 {
+    padding: 10px;
+}
+
+.msg-container2 {
+    padding: 10px;
+}
+
+/*********************** p tag styles ***********************/
+
+#msg-1 {
+    color: #A40E4C;
+    font-size: 6vmin;
+}
+#msg-2 {
+    color: #A40E4C;
+    font-size: 6vmin;
+}
+
+
+/*********************** button styles ***********************/
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    /* color: #A40E4C; */
+    background: #EFF1F3;
+}
+
+.reset {
+    background: #ED254E;
+    color: white;
+    padding: 20px;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    border: none;
+}
+
+#new-btn {
+    background: #ED254E;
+    color: white;
+    padding: 20px;
+    border-radius: 1.2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+}
+
+#start-btn {
+    background: #ED254E;
+    color: white;
+    padding: 20px;
+    border-radius: 1.2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+}
+
+/*********************** visibility styles ***********************/
+
+.hide {
+    display: none;
+}
